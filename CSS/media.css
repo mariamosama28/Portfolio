@@ -1,0 +1,68 @@
+@media (max-width: 1023px) {
+    header{
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .nav{
+        gap: 5px;
+    }
+    .nav a{
+        padding-left: 5px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-text{
+        text-align: center;
+    }
+    .main-text h2{
+        font-size: 1em;
+    }
+    .main-text h3{
+        font-size: 1.6em;
+    }
+    .main-text h2 span{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .main-btn{
+        font-size: .6em;
+    }
+}
+@media (max-width:940px) {
+    .photo{
+        display: none;
+    }
+    .main{
+        justify-content: center;
+    }
+}
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+    .main-text h2{
+        font-size: .8em;
+    }
+    .main-text h3{
+        font-size: 1.4em;
+    }
+    .main{
+        gap: 10px;
+    }
+    a{
+        font-size: 12px;
+    }
+}
+@media (max-width:300px) {
+    body{
+        font-size: 10px;
+    }
+}
